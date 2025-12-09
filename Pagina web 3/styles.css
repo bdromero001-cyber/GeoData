@@ -1,0 +1,118 @@
+/* ======== PALETA DE COLORES ======== */
+:root {
+  --azul-claro: #d9f0ff;     /* Fondo */
+  --azul-medio: #74b9ff;     /* Detalles */
+  --verde: #27ae60;          /* Botones y acentos */
+  --texto-oscuro: #1b1b1b;
+}
+
+/* ======== ESTILOS GENERALES ======== */
+body {
+  background-color: var(--azul-claro);
+  color: var(--texto-oscuro);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ======== BANNER PROMOCIONAL ======== */
+#banner {
+  background-color: var(--azul-medio);
+  color: white;
+  font-weight: bold;
+}
+
+/* ======== NAVBAR ======== */
+.navbar {
+  background-color: white !important;
+  border-bottom: 2px solid var(--azul-medio);
+}
+
+.navbar-brand span {
+  color: var(--verde);
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--verde);
+}
+
+/* ======== BOTONES ======== */
+.btn-primary {
+  background-color: var(--azul-medio);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--verde);
+}
+
+.btn-success {
+  background-color: var(--verde);
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #1e8c4e;
+}
+
+/* ======== TARJETAS ======== */
+.card {
+  border: 1px solid var(--azul-medio);
+}
+
+.card-header,
+.card-footer {
+  background-color: var(--azul-medio);
+  color: white;
+  font-weight: bold;
+}
+
+/* ======== TESTIMONIOS ======== */
+.testimonio-vip {
+  background-color: white;
+  border-left: 6px solid var(--verde);
+}
+
+/* ======== TABS ======== */
+.nav-tabs .nav-link.active {
+  background-color: var(--verde);
+  color: white !important;
+}
+
+.nav-tabs .nav-link:hover {
+  color: var(--azul-medio);
+}
+
+/* ======== FORMULARIO ======== */
+form {
+  border: 2px solid var(--azul-medio);
+}
+
+form label {
+  color: var(--verde);
+}
+
+/* ======== OFFCANVAS ======== */
+.offcanvas-header {
+  background-color: var(--azul-medio);
+  color: white;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: var(--azul-medio);
+  color: white;
+  font-weight: bold;
+}
+
+/* ======== BOTÓN WHATSAPP ======== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25D366;
+  color: white;
+  font-size: 26px;
+  padding: 14px 17px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
